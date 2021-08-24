@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100&display=swap");
+
+*, *::after, *::before {
+    margin: 0;
+    box-sizing: border-box;
+    color: rgba(255,255,255,0.70);
+    /* font-weight: 300; */
+    font-family:  poppins;
+}
+
+.App{
+    background: linear-gradient(rgba(255,255,255,0.10), 
+    rgba(255,255,255,.10)), 
+    url(../images/lake_tahoe-1920x1200.jpg);
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}

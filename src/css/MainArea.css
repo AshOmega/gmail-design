@@ -1,0 +1,8 @@
+@import url(./App.css);
+
+.main-area-grid{
+    display: grid;
+    grid-template-columns: 2fr 6fr 2fr;
+    grid-template-rows: auto auto;
+    /* background-color: cyan; */
+}

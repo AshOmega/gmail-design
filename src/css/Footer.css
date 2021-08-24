@@ -1,0 +1,26 @@
+@import url(./App.css);
+
+.footer{
+    /* background-color:red; */
+    font-size: 0.75rem;
+    padding: 1rem;
+    display:fixed;
+    margin-top: 70vh;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer-content-terms{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.footer-content-terms-right-align{
+    /* background-color: pink; */
+    text-align: right;
+}

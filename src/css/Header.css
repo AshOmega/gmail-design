@@ -1,0 +1,33 @@
+@import url(./App.css);
+
+*{
+    --header-padding: 0.2rem;
+    --grid-gap: 1rem;
+}
+
+.title{
+    font-size: 1.5rem;
+}
+
+.header-grid{
+    display: grid;
+    grid-template-columns: 2fr 6fr 2fr;
+    grid-template-rows: auto;
+    border-bottom: 0.1px solid rgb(153, 153, 153);
+}
+
+.header > ul{
+    height:100%;
+    /* background-color:green; */
+    display: flex;
+    justify-content: centre;
+    align-items: center;
+    padding: var(--header-padding);
+    gap: var(--grid-gap);
+}
+
+.header-centre{
+    display: flex;
+    align-items: center;
+    padding: var(--header-padding);
+}
